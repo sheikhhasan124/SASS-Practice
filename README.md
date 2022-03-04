@@ -1,6 +1,10 @@
 # SASS 
 
 ## 1 what is sass?  
+1. SASS = syntactically awesome style sheet  
+2. it is an extension of css  
+3. 
+
 ## 2 what are prerequisites to learn sass?
 ## 3 why sass?
 ## 4 how does sass work?
