@@ -3,13 +3,19 @@
 ## 1 what is sass?  
 1. SASS = syntactically awesome style sheet  
 2. it is an extension of css  
-3. 
 
-## 2 what are prerequisites to learn sass?
-## 3 why sass?
-## 4 how does sass work?
-## 5 how to add sass to html?
-## 6 sass comments 
+## 2 why sass?
+1. sass has some extra special features that do not exist in css.  
+i. variables  
+ii. nested rules,  
+iii. mixins, imports,  
+iv. inheritance.  
+2. To make our code simpler and more maintainable
+3. No DRY (we can @extends css rules)
+
+## 3 how does sass work?
+## 4 how to add sass to html?
+## 5 sass comments 
 <hr>
 
 # SASS features
