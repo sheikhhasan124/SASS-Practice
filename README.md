@@ -18,7 +18,7 @@ iv. inheritance.
 ## 4 how to add sass to html?
 1. install live sass compiler in vscode  
 2. create a style folder -> demo.scss-> add some code into it  
-3. <link rel = 'stylesheet' href='./style.demo.css'/>  
+3. link rel = 'stylesheet' href='./style.demo.css'
 
 
 # SASS features
