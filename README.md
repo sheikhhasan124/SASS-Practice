@@ -13,5 +13,12 @@
 2. Nesting css rules  
 3. @import and partials (import file-reset,color etc,DRY)  
 4. @mixin and @include (@mixin holds reusable code and we can implement that code using @include)  
+5. @extend and inheritance  
+6. @if @else if @else  
+7. @for  
+8. @while  
+9. @each  
+
+
 
 
