@@ -14,9 +14,12 @@ iv. inheritance.
 3. No DRY (we can @extends css rules)
 
 ## 3 how does sass work?
+1. demo.scss  
 ## 4 how to add sass to html?
-## 5 sass comments 
-<hr>
+1. install live sass compiler in vscode  
+2. create a style folder -> demo.scss-> add some code into it  
+3. <link rel = 'stylesheet' href='./style.demo.css'/>  
+
 
 # SASS features
 1. Sass variables  
