@@ -4,4 +4,17 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+header {
+  font-size: 30px;
+  background-color: #d15c5c;
+}
+
+main {
+  background-color: #b48989;
+}
+
+footer {
+  background-color: #a5a5a5;
+}
 /*# sourceMappingURL=demo.css.map */

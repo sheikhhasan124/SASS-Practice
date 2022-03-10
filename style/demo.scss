@@ -1,7 +1,24 @@
-// common style 
+//color variable declaration
+$header-bgcolor:rgb(209, 92, 92);
+$main-bgcolor:rgb(180, 137, 137);
+$footer-bgcolor:rgb(165, 165, 165);
+
+
+// like css  style 
 *{
     margin: 0;
     padding: 
     0;
     box-sizing: border-box;
+}
+header{
+    font-size: 30px;
+    background-color: $header-bgcolor;
+}
+
+main{
+    background-color: $main-bgcolor;
+}
+footer{
+    background-color: $footer-bgcolor;
 }
