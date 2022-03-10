@@ -34,6 +34,7 @@ iv. inheritance.
 
 <hr>
 
+## (c-2)
 ## sass variables  
 sass variable is more simpler than css  
 like js (let,const) we can start declaring the variable using $  

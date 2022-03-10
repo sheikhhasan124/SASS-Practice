@@ -10,6 +10,30 @@ header {
   background-color: #d15c5c;
 }
 
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #a8a899;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: azure;
+}
+
 main {
   background-color: #b48989;
 }
