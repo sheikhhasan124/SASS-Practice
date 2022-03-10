@@ -30,7 +30,31 @@ iv. inheritance.
 6. @if @else if @else  
 7. @for  
 8. @while  
-9. @each  
+9. @each    
+
+<hr>
+
+## sass variables  
+sass variable is more simpler than css  
+like js (let,const) we can start declaring the variable using $  
+
+### example  
+### declaring  
+$header-bgcolor: colorName;
+$para-fontsize: size;  
+
+### using  
+header{
+    bacground: $header-bgcolor;  
+}  
+
+### using sass variable we can stor  
+- string  
+- numbers  
+- colors  
+- booleans  
+- lists  
+- nulls  
 
 
 
