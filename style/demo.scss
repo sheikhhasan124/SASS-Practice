@@ -3,11 +3,20 @@
 @import "reset";
 @import "variable";
 
+@mixin fontSize($value){
+    @if $value == small{
+        font-size: 30px;
+    }
+    @else if $value == large{
+        font-size: 40px;
+    }
+}
 
 header{
-    font-size: 30px;
+    // font-size: 30px;
     background-color: $header-bgcolor;
 }
+
 // nav style
 nav{
     margin-top: 20px;
@@ -17,11 +26,14 @@ nav{
         li{
             list-style: none;
             display: inline-block;  
+            
 
             a{text-decoration: none;
+                @include fontSize(large);
                 display: inline-block;  
                 background-color: rgb(168, 168, 153);
             padding: 10px 20px;
+            
             }
             a:hover{
                 background-color: azure;
@@ -32,7 +44,7 @@ nav{
 .btn{
     border: none;
    padding: 10px;
-   font-size: 15px;
+//    font-size: 15px;
    border-radius: 20px;
 }
 .click-btn{
@@ -42,6 +54,8 @@ nav{
     @extend .btn;
 }
 
+
+
 @mixin para-style($size, $style) {
     font-size: $size;
     text-align: $style;
@@ -49,10 +63,10 @@ nav{
 }
 
 #about p{
-    @include para-style(25px, center);
+    // @include para-style(25px, center);
 }           
 #service p{
-    @include para-style(20px, left);
+    // @include para-style(20px, left);
 }           
 
 

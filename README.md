@@ -95,8 +95,9 @@ header{
 
 ## extend and inheritense  
 ```
+
      <input type="button" class="click-btn" value="click">
-       <input type="button" class="reset-btn" value="reset"
+       <input type="button" class="reset-btn" value="reset">
 
 
 
@@ -113,3 +114,9 @@ header{
     @extend .btn;
 }
 ```
+
+<hr>
+
+## @if ,@else if, @else  
+  
+
