@@ -91,5 +91,25 @@ header{
 
 ```
 
-
 <hr>
+
+## extend and inheritense  
+```
+     <input type="button" class="click-btn" value="click">
+       <input type="button" class="reset-btn" value="reset"
+
+
+
+.btn{
+    border: none;
+   padding: 10px;
+   font-size: 15px;
+   border-radius: 20px;
+}
+.click-btn{
+    @extend .btn;
+}
+.reset-btn{
+    @extend .btn;
+}
+```

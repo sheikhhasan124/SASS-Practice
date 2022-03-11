@@ -29,6 +29,18 @@ nav{
         }
     }
 }
+.btn{
+    border: none;
+   padding: 10px;
+   font-size: 15px;
+   border-radius: 20px;
+}
+.click-btn{
+    @extend .btn;
+}
+.reset-btn{
+    @extend .btn;
+}
 
 @mixin para-style($size, $style) {
     font-size: $size;
