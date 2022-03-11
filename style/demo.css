@@ -34,6 +34,18 @@ nav ul li a:hover {
   background-color: azure;
 }
 
+#about p {
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+#service p {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+}
+
 main {
   background-color: #b48989;
 }

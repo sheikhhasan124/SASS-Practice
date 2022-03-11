@@ -57,6 +57,39 @@ header{
 - lists  
 - nulls  
 
+<hr>
+
+## @mixin and @include  
+- A mixin -> a group of CSS declarations that can be reuses throughout the style sheet.  
+
+```
+@mixin para-style{
+    font-size:10px;
+    text-align:justify;
+}
+
+```
+```
+#section-me p{
+    @include para-style;
+}
+
+```
+```
+@mixin para-style($size, $style) {
+    font-size: $size;
+    text-align: $style;
+    margin: 10px
+}
+
+#about p{
+    @include para-style(25px, center);
+}           
+#service p{
+    @include para-style(20px, left);
+}  
+
+```
 
 
-
+<hr>

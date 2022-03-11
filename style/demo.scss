@@ -30,8 +30,18 @@ nav{
     }
 }
 
+@mixin para-style($size, $style) {
+    font-size: $size;
+    text-align: $style;
+    margin: 10px
+}
 
-           
+#about p{
+    @include para-style(25px, center);
+}           
+#service p{
+    @include para-style(20px, left);
+}           
 
 
 main{
